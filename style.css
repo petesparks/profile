@@ -1,0 +1,203 @@
+body {
+
+    background: #EAEBED;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 18px;
+    line-height: 1.6em;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 300;
+    color: #7CEA9C;
+    /*margin-left: 1000px*/
+}
+
+h1 {
+    color: #FF1053;
+    font-size: 24px;
+    font-family: 'montserrat', sans-serif;
+    /*margin-left: 1000px;*/
+
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 300;
+  }
+
+h4 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #7CEA9C;
+    /*margin-left: 1000px*/
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 18px;
+}
+
+a {
+    color: #FF1053;
+    text-decoration: none;
+    font-size: 50px;
+
+}
+
+a:hover {
+  color: skyblue;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+table {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+#banner {
+  background-image: url("begin.png");
+  background-size: cover;
+  color: white;
+  height: 105%;
+}
+
+.container {
+  width: 1500px;
+  margin: 35px auto;
+}
+
+.main-text {
+  width:45%;
+  margin: 0 auto;
+  font-size: 18px;
+  padding: 20px 0 60px 0;
+}
+
+.card {
+  background: rgba(0,0,0,0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+#card-remove {
+  background: rgba(0,0,0,0);
+  padding: 20px;
+  margin-bottom: 620px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-cirlce {
+  border-radius: 50%;
+}
+
+#img-profile {
+  width: 120px;
+  height: 120px;
+  color: rgba(124, 234, 156, 0.2);
+  margin-left: 15px;
+}
+
+.img-size {
+  width: 1450px;
+  border-radius: 20px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.list-inline {
+  padding-left: 0px;
+  /*margin-left: 1000px;*/
+}
+
+.list-inline li {
+    display: inline-block;
+    padding: 40px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+    body {
+    width: 960px;
+  }
+  /*h1, h2 {
+    margin-left: 800px;
+  }*/
+  .container {
+    width: 700px;
+  }
+  .img-size {
+    width: 675px;
+  }
+  #banner {
+    width: 960px;
+  }
+ /* .list-inline {
+  padding-left: 0px;
+  margin-left: 800px;*/
+
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  body {
+    width: 720px;
+  }
+  /*h1, h2 {
+    margin-left: 400px;
+  }*/
+  .container {
+    width: 500px;
+  }
+  .img-size {
+    width: 475px;
+  }
+  #banner {
+    width: 720px;
+  }
+  /*.list-inline {
+  padding-left: 0px;
+  margin-left: 400px;*/
+
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+    body {
+    width: 540px;
+  }
+  /*h1, h2 {
+    margin-left: 200px;
+  }*/
+  .container {
+    width: 300px;
+  }
+  .img-size {
+    width: 275px;
+  }
+  #banner {
+    width: 540px;
+  }
+ /* .list-inline {
+  padding-left: 0px;
+  margin-left: 200px;*/
+
+}
+
